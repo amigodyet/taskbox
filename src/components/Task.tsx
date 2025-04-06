@@ -38,7 +38,7 @@ export default function Task({
           name="title"
           id={`title-${id}`}
           placeholder="Input title"
-          style={{ backgroundColor: "skyblue" }}
+          style={{ textOverflow: "ellipsis" }}
         />
       </label>
       {state !== "TASK_ARCHIVED" && (
